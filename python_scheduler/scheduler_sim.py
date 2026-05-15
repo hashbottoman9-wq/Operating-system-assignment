@@ -335,3 +335,7 @@ def main():
     comp_rows = []
     for algo, data in results.items():
         agg = data['aggregates']
+
+if __name__ == '__main__':
+    main()
+
