@@ -71,7 +71,25 @@ EduOS-25311351026/
 
 ## Screenshots
 
-*(To be added once the simulator is running)*
+## Screenshots
+
+### 1. Process Management Demo
+![Process Management](docs/screenshots/Screenshot 2026-05-15 123137.png)
+
+### 2. Thread Pool Demo
+![Thread Pool](docs/screenshots/Screenshot 2026-05-15 123154.png)
+
+### 3. Race Condition Demo
+![Race Condition](docs/screenshots/Screenshot 2026-05-15 123205.png)
+
+### 4. Producer Consumer Demo
+![Producer Consumer](docs/screenshots/Screenshot 2026-05-15 123215.png)
+
+### 5. IPC Demo
+![IPC Demo](docs/screenshots/Screenshot 2026-05-15 125452.png)
+
+### 6. Valgrind Output
+![Valgrind](docs/screenshots/Screenshot 2026-05-15 125603.png)
 
 ## Valgrind Output
 
