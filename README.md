@@ -75,14 +75,27 @@ EduOS-25311351026/
 
 ## Valgrind Output
 
-All heap blocks were freed -- no leaks are possible
-Total heap usage: 38 allocs, 38 frees, 39,024 bytes allocated
-ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+==1116== HEAP SUMMARY:
+==1116==     in use at exit: 0 bytes in 0 blocks
+==1116==   total heap usage: 38 allocs, 38 frees, 39,024 bytes allocated
+==1116==
+==1116== All heap blocks were freed -- no leaks are possible
+==1116==
+==1116== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
 
 ## Challenges and Solutions
 
-*(To be filled in as development progresses)*
+1. **usleep not declared** — The `usleep()` function required `#define _XOPEN_SOURCE 600` 
+   to be added at the top of process_manager.c and thread_manager.c. Fixed by adding 
+   the define before all includes.
 
+2. **GitHub authentication** — Password authentication was removed by GitHub. 
+   Resolved by generating a Personal Access Token and using it instead.
+
+3. **WSL setup on Windows** — The C code uses POSIX features not available on Windows. 
+   Resolved by installing WSL2 with Ubuntu to compile and run the code natively on Linux.
+   
 ## References
 
 - Silberschatz, A., Galvin, P. B., & Gagne, G. - Operating System Concepts, 10th Edition
