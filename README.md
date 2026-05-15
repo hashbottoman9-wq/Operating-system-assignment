@@ -75,7 +75,9 @@ EduOS-25311351026/
 
 ## Valgrind Output
 
-*(To be pasted here once memcheck is complete)*
+All heap blocks were freed -- no leaks are possible
+Total heap usage: 38 allocs, 38 frees, 39,024 bytes allocated
+ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
 
 ## Challenges and Solutions
 
