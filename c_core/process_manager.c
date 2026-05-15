@@ -1,4 +1,6 @@
+#define _XOPEN_SOURCE 600
 #include "include/eduos.h"
+#include <unistd.h>
 
 /* ─── Global PCB Table ─── */
 PCB pcb_table[MAX_PROCESSES];

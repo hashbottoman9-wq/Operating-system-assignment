@@ -1,4 +1,6 @@
+#define _XOPEN_SOURCE 600
 #include "include/eduos.h"
+#include <unistd.h>
 
 /* ─── Shared counter for race condition demo ─── */
 static int shared_counter = 0;
