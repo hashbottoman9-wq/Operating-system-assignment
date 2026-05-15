@@ -1,0 +1,11 @@
+pid,name,arrival_time,burst_time,priority,memory_req_kb
+1001,Process_A,0,8,2,512
+1002,Process_B,1,4,1,256
+1003,Process_C,2,9,3,1024
+1004,Process_D,3,5,2,512
+1005,Process_E,4,2,1,256
+1006,Process_F,5,6,4,768
+1007,Process_G,6,3,1,512
+1008,Process_H,7,7,3,1024
+1009,Process_I,8,1,2,256
+1010,Process_J,9,4,1,512
