@@ -75,7 +75,7 @@ EduOS-25311351026/
 
 ## Valgrind Output
 
-
+```
 ==1116== HEAP SUMMARY:
 ==1116==     in use at exit: 0 bytes in 0 blocks
 ==1116==   total heap usage: 38 allocs, 38 frees, 39,024 bytes allocated
@@ -83,6 +83,7 @@ EduOS-25311351026/
 ==1116== All heap blocks were freed -- no leaks are possible
 ==1116==
 ==1116== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+```
 
 ## Challenges and Solutions
 
