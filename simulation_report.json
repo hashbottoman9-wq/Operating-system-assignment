@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-05-16T12:18:15.082234",
+  "student": "Hope Bottoman",
+  "reg_number": "25-311-351-026",
+  "module": "351 CS 2104",
+  "results": {
+    "FCFS": {
+      "avg_waiting_time": 14.0,
+      "avg_turnaround_time": 25.0,
+      "avg_response_time": 14.0,
+      "cpu_utilisation": 100.0,
+      "throughput": 0.0909
+    },
+    "SJF": {
+      "avg_waiting_time": 14.0,
+      "avg_turnaround_time": 25.0,
+      "avg_response_time": 14.0,
+      "cpu_utilisation": 100.0,
+      "throughput": 0.0909
+    },
+    "Priority": {
+      "avg_waiting_time": 14.0,
+      "avg_turnaround_time": 25.0,
+      "avg_response_time": 14.0,
+      "cpu_utilisation": 100.0,
+      "throughput": 0.0909
+    },
+    "RoundRobin": {
+      "avg_waiting_time": 11.0,
+      "avg_turnaround_time": 22.0,
+      "avg_response_time": 2.0,
+      "cpu_utilisation": 100.0,
+      "throughput": 0.0909
+    }
+  }
+}

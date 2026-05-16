@@ -1,0 +1,47 @@
+[
+  {
+    "pid": 1000,
+    "name": "init",
+    "state": "TERMINATED",
+    "priority": 1,
+    "burst_time": 20,
+    "arrival_time": 0,
+    "remaining_time": 20,
+    "memory_req_kb": 1024,
+    "thread_count": 1,
+    "exit_code": 0,
+    "parent_pid": 0,
+    "owner_id": 42,
+    "creation_time": 1778926688
+  },
+  {
+    "pid": 1001,
+    "name": "calculator",
+    "state": "TERMINATED",
+    "priority": 1,
+    "burst_time": 5,
+    "arrival_time": 0,
+    "remaining_time": 5,
+    "memory_req_kb": 1024,
+    "thread_count": 1,
+    "exit_code": 0,
+    "parent_pid": 1000,
+    "owner_id": 42,
+    "creation_time": 1778926688
+  },
+  {
+    "pid": 1002,
+    "name": "text_editor",
+    "state": "TERMINATED",
+    "priority": 1,
+    "burst_time": 8,
+    "arrival_time": 0,
+    "remaining_time": 8,
+    "memory_req_kb": 1024,
+    "thread_count": 1,
+    "exit_code": 0,
+    "parent_pid": 1000,
+    "owner_id": 42,
+    "creation_time": 1778926688
+  }
+]
